@@ -6,11 +6,10 @@ body{
     font-size: 14px ;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .maindiv{
     max-width: 100%;
-    background-color:#F15A29;
     border-radius: 2px;
     color: black;
 }
@@ -24,7 +23,7 @@ body{
     margin: 2px 0;
 }
 .menulogo{
-    background-image: url(/landing.jpg);
+    background-image: url("./assets/landing.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -54,6 +53,9 @@ tr#service1{
     background-color: lightgray;
     color: black;
 }
+#service2 {
+    background-color: #F15A29;
+}
 #fun_time{
     flex: 1;
     text-align: center;
@@ -67,15 +69,15 @@ tr#service1{
     
 }
 #breakfast {
-    background-image: url(/breakfast.jpg);
+    background-image: url("./assets/breakfast.jpg");
 }
 #lunch{
-    background-image: url(/lunch.jpg);
+    background-image: url("./assets/lunch.jpg");
     background-color: rgba(231, 228, 228, 0.79); 
     background-blend-mode: overlay;                         /*adds overlay on img bakground in the same div*/
 }
 #dinner{
-    background-image: url(/dinner.jpg);
+    background-image: url(./assets/dinner.jpg);
 }
 
 .food_drinks{
@@ -140,7 +142,7 @@ tr#service1{
     font-size: 14px;  
 }
 .fooditems{
-    background-image: url(/foodsBg.jpg);
+    background-image: url(./assets/foodsBg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -195,7 +197,6 @@ th:hover{
     color: #F15A29;
 }
 #customers{
- 
     padding: 50px;  
     padding-top: 20px;
     background-color: whitesmoke; 
@@ -232,7 +233,7 @@ th:hover{
     color: #F15A29;
 }
 .food_delivery{
-    background-image: url(subscribe.jpg);
+    background-image: url(./assets/subscribe.jpg);
     background-size: 100% 100%;
     display: block;
     position: relative;
@@ -269,6 +270,7 @@ th:hover{
     text-align: center;
     padding-top: 40px; 
     font-size: 15px;
+    background-color: #F15A29;
     color: white;
 }
 #copyright{
@@ -291,7 +293,7 @@ th:hover{
     float: right;
 }
 .left {
-    transform: rotate(135deg);
+    transform: rotate(125deg);
     float: left;
 }
 .container{
@@ -316,4 +318,4 @@ h1, h2{
       font-size: 40px;
       top: 15px;
       right: 35px;
-    }
+}
